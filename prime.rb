@@ -1,12 +1,10 @@
 # Add  code here!
 def prime?(number)
   is_prime = true
-  if number == 1 || number == -1
-    return is_prime
-  end
   if number < 0
     
-    upper_range = number * -1 - 1
+    is_prime = false
+    return is_prime
   else
     upper_range = number - 1
   end
