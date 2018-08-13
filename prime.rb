@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   is_prime = true
-  if number < 0
+  if number <= 0
     
     is_prime = false
     return is_prime
