@@ -2,6 +2,13 @@
 def prime?(number)
   is_prime = true
   upper_range = number - 1
-  puts upper_range  
+  new_range = (2..upper_range).to_a
+  
+  new_range.each do |num|
+    if number % num == 0
+      is_prime = false
+    end
+  end
+    
   return is_prime
 end
