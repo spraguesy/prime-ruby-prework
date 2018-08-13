@@ -2,7 +2,7 @@
 def prime?(number)
   is_prime = true
   if number <= 1
-    
+    puts number
     is_prime = false
     return is_prime
   else
