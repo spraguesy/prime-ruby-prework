@@ -6,7 +6,6 @@ def prime?(number)
   end
   
   new_range = (2..(number-1)).to_a
-  puts new_range
   new_range.each do |num|
     if number % num == 0
       is_prime = false
